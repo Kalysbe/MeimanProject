@@ -1,0 +1,20 @@
+* {
+ font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #eee;
+}
+.accordion-header {
+    transition: 1s;
+}
+.category-button {
+    background: #fff;
+}
+.category-button.active {
+    background: #cfe2ff;
+    color:#0a58ca;
+    font-size: 32px;
+}
+.accordion-button[aria-expanded="true"] ~ .accordion-item {
+    margin-bottom: 20px;
+}
